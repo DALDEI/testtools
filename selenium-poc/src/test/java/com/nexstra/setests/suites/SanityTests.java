@@ -5,14 +5,12 @@ import org.junit.runners.Suite;
 
 import com.nexstra.setests.shallowtests.KLA;
 import com.nexstra.setests.shallowtests.NewAdmin;
-import com.nexstra.setests.shallowtests.OldAdmin;
 
 
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 		KLA.class,
-//	  OldAdmin.class,
 	  NewAdmin.class
 })
 public class SanityTests {
